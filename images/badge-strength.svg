@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="strengthGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8941f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Flexed arm -->
+  <path d="M 14 28 L 14 32 L 18 32 L 18 28 Z" fill="url(#strengthGrad)"/>
+  <path d="M 18 24 Q 22 20, 26 24 L 26 32 L 22 32 L 22 28 Q 22 26, 20 26 Q 18 26, 18 28 Z" fill="url(#strengthGrad)"/>
+  <circle cx="28" cy="20" r="4" fill="url(#strengthGrad)"/>
+</svg>

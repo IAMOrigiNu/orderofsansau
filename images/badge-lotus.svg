@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="lotusGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8b4d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d88cb8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(24,24)">
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="4" fill="#d4af37"/>
+    <!-- Petals -->
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="url(#lotusGrad)" opacity="0.9"/>
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="url(#lotusGrad)" opacity="0.9" transform="rotate(45)"/>
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="url(#lotusGrad)" opacity="0.9" transform="rotate(90)"/>
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="url(#lotusGrad)" opacity="0.9" transform="rotate(135)"/>
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="url(#lotusGrad)" opacity="0.9" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="url(#lotusGrad)" opacity="0.9" transform="rotate(225)"/>
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="url(#lotusGrad)" opacity="0.9" transform="rotate(270)"/>
+    <ellipse cx="0" cy="-12" rx="6" ry="10" fill="url(#lotusGrad)" opacity="0.9" transform="rotate(315)"/>
+  </g>
+</svg>
