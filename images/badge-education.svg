@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Education/graduation cap badge -->
+  <!-- Cap base -->
+  <path d="M32 20 L8 28 L32 36 L56 28 Z" fill="#2d5016" stroke="#3d6b1f" stroke-width="2"/>
+  <!-- Cap top (mortarboard) -->
+  <rect x="16" y="16" width="32" height="3" fill="#3d6b1f" stroke="#2d5016" stroke-width="1.5"/>
+  <!-- Tassel -->
+  <line x1="48" y1="16" x2="52" y2="12" stroke="#d4af37" stroke-width="2"/>
+  <circle cx="52" cy="10" r="2.5" fill="#d4af37"/>
+  <!-- Book pages -->
+  <path d="M28 36 L28 48 L32 50 L36 48 L36 36" fill="#faf8f3" stroke="#2d5016" stroke-width="1.5"/>
+  <line x1="28" y1="40" x2="36" y2="40" stroke="#2d5016" stroke-width="1" opacity="0.3"/>
+  <line x1="28" y1="44" x2="36" y2="44" stroke="#2d5016" stroke-width="1" opacity="0.3"/>
+  <!-- Book spine -->
+  <path d="M32 36 L32 50" stroke="#2d5016" stroke-width="1.5"/>
+</svg>
