@@ -271,6 +271,7 @@ nav a:hover {
 /* Sections */
 .site-section {
   padding: var(--section-padding);
+  overflow-x: hidden;
 }
 
 .section-title {
@@ -493,10 +494,47 @@ footer {
   opacity: 0.7;
 }
 
+/* Section images - prevent overflow and center */
+.glass-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
   :root {
-    --section-padding: 4rem 1.5rem;
+    --section-padding: 4rem 1rem;
+  }
+  
+  .container {
+    padding: 0 1rem;
+    overflow-x: hidden;
+  }
+  
+  .glass-card {
+    padding: 1.5rem;
+    overflow: visible;
+  }
+  
+  .glass-card img {
+    max-width: 100%;
+    width: 100%;
+    height: auto !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+  }
+  
+  /* Fix grid overflow on narrow screens */
+  .glass-card [style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+    min-width: 0;
   }
   
   .mobile-menu-toggle {
